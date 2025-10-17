@@ -27,8 +27,8 @@ console.log('loading error')
 }
 const textureLoader = new THREE.TextureLoader(loadingManager)
 //const colorTexture = textureLoader.load(imageSource)
-//const colorTexture = textureLoader.load('/textures/checkerboard-8x8.png')
-const colorTexture = textureLoader.load('/textures/minecraft.png')
+//const colorTexture = textureLoader.load('textures/checkerboard-8x8.png')
+const colorTexture = textureLoader.load('textures/minecraft.png')
 
 
 
@@ -51,14 +51,14 @@ colorTexture.repeat.set(2, 3)
 //colorTexture.wrapS = THREE.MirroredRepeatWrapping
 //colorTexture.wrapT = THREE.MirroredRepeatWrapping
 
-//const colorTexture = textureLoader.load('/textures/door/color.jpg')
-const alphaTexture = textureLoader.load('/textures/door/alpha.jpg')
-const heightTexture = textureLoader.load('/textures/door/height.jpg')
-const normalTexture = textureLoader.load('/textures/door/normal.jpg')
+//const colorTexture = textureLoader.load('textures/door/color.jpg')
+const alphaTexture = textureLoader.load('textures/door/alpha.jpg')
+const heightTexture = textureLoader.load('textures/door/height.jpg')
+const normalTexture = textureLoader.load('textures/door/normal.jpg')
 const ambientOcclusionTexture =
-textureLoader.load('/textures/door/ambientOcclusion.jpg')
-const metalnessTexture = textureLoader.load('/textures/door/metalness.jpg')
-const roughnessTexture = textureLoader.load('/textures/door/roughness.jpg')
+textureLoader.load('textures/door/ambientOcclusion.jpg')
+const metalnessTexture = textureLoader.load('textures/door/metalness.jpg')
+const roughnessTexture = textureLoader.load('textures/door/roughness.jpg')
 
 //const textureLoader = new THREE.TextureLoader()
 /*const texture = textureLoader.load(
